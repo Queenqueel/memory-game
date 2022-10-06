@@ -33,7 +33,7 @@ const checkEndGame = () => {
         clearInterval(this.loop);
 
 
-        alert(`Parabéns, ${spanPlayer.innerHTML}! Seu tempo foi: ${timer.innerHTML}`);
+        swal(`Parabéns, ${spanPlayer.innerHTML}! Você terminou em: ${timer.innerHTML} segundos`);
     }
 }
 
