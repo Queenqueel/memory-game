@@ -1,4 +1,4 @@
-# Expanding Cards
+# Memory Game
 
 ## Sobre
 Jogo da memória com tema de League of Legends
