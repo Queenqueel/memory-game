@@ -5,16 +5,16 @@ const timer = document.querySelector('.timer');
 var btn = document.querySelector('.button-restart');
 
 const characters = [
-    'ahri',
-    'chogath',
-    'ekko',
-    'irelia',
-    'jhin',
-    'lillia',
-    'lucian',
-    'miss',
-    'morgana',
-    'samira'
+    'yoru',
+    'kayo',
+    'phoenix',
+    'raze',
+    'sova',
+    'viper',
+    'omen',
+    'reyna',
+    'sage',
+    'breach'
 ];
 
 const createElement = (tag, className) => {
@@ -92,7 +92,7 @@ const createCard = (character) => {
     const front = createElement('div', 'face front');
     const back = createElement('div', 'face back');
 
-    front.style.backgroundImage = `url('../img/${character}.jpg')`;
+    front.style.backgroundImage = `url('../img/${character}.png')`;
 
     card.appendChild(front);
     card.appendChild(back);
