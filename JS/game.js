@@ -14,7 +14,47 @@ const characters = [
     'lucian',
     'miss',
     'morgana',
-    'samira'
+    'samira',
+    'aatrox',
+    'akali',
+    'akshan',
+    'alistar',
+    'amumu',
+    'anivia',
+    'annie',
+    'aphelios',
+    'ashe',
+    'azir',
+    'bardo',
+    'belveth',
+    'blitzcrank',
+    'brand',
+    'braum',
+    'caitlyn',
+    'camille',
+    'cassiopeia',
+    'corki',
+    'darius',
+    'diana',
+    'draven',
+    'drmundo',
+    'elise',
+    'evelynn',
+    'ezreal',
+    'fiddlesticks',
+    'fiora',
+    'fizz',
+    'galio',
+    'gangplank',
+    'garen',
+    'gnar',
+    'gragas',
+    'gwen',
+    'hecarim',
+    'nami',
+    'rell',
+    'riven',
+    'soraka'
 ];
 
 const createElement = (tag, className) => {
@@ -29,7 +69,7 @@ let secondCard = '';
 const checkEndGame = () => {
     const disabledCards = document.querySelectorAll('.disabled-card');
 
-    if (disabledCards.length === 20) {
+    if (disabledCards.length === 100) {
         clearInterval(this.loop);
 
 
